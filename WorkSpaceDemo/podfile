@@ -1,0 +1,22 @@
+# 写在最上面，标示公用
+platform :ios, '9.0'
+
+# 用cocoapods导入OC框架到swift项目必须写该项
+# user_frameworks!
+
+# workspace 文件名
+workspace 'WorkSpaceDemo.xcworkspace'
+
+#主工程路径
+project 'TestApp_1/TestApp_1.xcodeproj'
+
+        target 'TestApp_1' do
+#工程路径
+        project 'TestApp_1/TestApp_1.xcodeproj'
+        pod 'Masonry', '~> 1.0.2'
+end
+
+        target 'TestApp_2' do
+        project 'TestApp_2/TestApp_2.xcodeproj'
+        pod 'AFNetworking', '~> 3.1.0'
+end

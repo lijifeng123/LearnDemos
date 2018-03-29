@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TestFrameWork/TestFrameWork.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TestFrameWorkTwo/TestFrameWorkTwo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TestLib/TestLib.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TestApp_2/TestApp_2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TestApp_1/TestApp_1.xcodeproj">
+   </FileRef>
+</Workspace>

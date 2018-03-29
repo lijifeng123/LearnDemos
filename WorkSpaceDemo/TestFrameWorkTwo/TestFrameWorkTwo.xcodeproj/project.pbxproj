@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0156CE572068D2FF004EE837 /* TestFrameWorkTwo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0156CE4D2068D2FF004EE837 /* TestFrameWorkTwo.framework */; };
+		0156CE5C2068D2FF004EE837 /* TestFrameWorkTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0156CE5B2068D2FF004EE837 /* TestFrameWorkTwoTests.m */; };
+		0156CE5E2068D2FF004EE837 /* TestFrameWorkTwo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0156CE502068D2FF004EE837 /* TestFrameWorkTwo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0156CE582068D2FF004EE837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0156CE442068D2FE004EE837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0156CE4C2068D2FF004EE837;
+			remoteInfo = TestFrameWorkTwo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0156CE4D2068D2FF004EE837 /* TestFrameWorkTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestFrameWorkTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0156CE502068D2FF004EE837 /* TestFrameWorkTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFrameWorkTwo.h; sourceTree = "<group>"; };
+		0156CE512068D2FF004EE837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0156CE562068D2FF004EE837 /* TestFrameWorkTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFrameWorkTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0156CE5B2068D2FF004EE837 /* TestFrameWorkTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFrameWorkTwoTests.m; sourceTree = "<group>"; };
+		0156CE5D2068D2FF004EE837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0156CE492068D2FF004EE837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0156CE532068D2FF004EE837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0156CE572068D2FF004EE837 /* TestFrameWorkTwo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0156CE432068D2FE004EE837 = {
+			isa = PBXGroup;
+			children = (
+				0156CE4F2068D2FF004EE837 /* TestFrameWorkTwo */,
+				0156CE5A2068D2FF004EE837 /* TestFrameWorkTwoTests */,
+				0156CE4E2068D2FF004EE837 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0156CE4E2068D2FF004EE837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0156CE4D2068D2FF004EE837 /* TestFrameWorkTwo.framework */,
+				0156CE562068D2FF004EE837 /* TestFrameWorkTwoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0156CE4F2068D2FF004EE837 /* TestFrameWorkTwo */ = {
+			isa = PBXGroup;
+			children = (
+				0156CE502068D2FF004EE837 /* TestFrameWorkTwo.h */,
+				0156CE512068D2FF004EE837 /* Info.plist */,
+			);
+			path = TestFrameWorkTwo;
+			sourceTree = "<group>";
+		};
+		0156CE5A2068D2FF004EE837 /* TestFrameWorkTwoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0156CE5B2068D2FF004EE837 /* TestFrameWorkTwoTests.m */,
+				0156CE5D2068D2FF004EE837 /* Info.plist */,
+			);
+			path = TestFrameWorkTwoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0156CE4A2068D2FF004EE837 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0156CE5E2068D2FF004EE837 /* TestFrameWorkTwo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0156CE4C2068D2FF004EE837 /* TestFrameWorkTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0156CE612068D2FF004EE837 /* Build configuration list for PBXNativeTarget "TestFrameWorkTwo" */;
+			buildPhases = (
+				0156CE482068D2FF004EE837 /* Sources */,
+				0156CE492068D2FF004EE837 /* Frameworks */,
+				0156CE4A2068D2FF004EE837 /* Headers */,
+				0156CE4B2068D2FF004EE837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestFrameWorkTwo;
+			productName = TestFrameWorkTwo;
+			productReference = 0156CE4D2068D2FF004EE837 /* TestFrameWorkTwo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0156CE552068D2FF004EE837 /* TestFrameWorkTwoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0156CE642068D2FF004EE837 /* Build configuration list for PBXNativeTarget "TestFrameWorkTwoTests" */;
+			buildPhases = (
+				0156CE522068D2FF004EE837 /* Sources */,
+				0156CE532068D2FF004EE837 /* Frameworks */,
+				0156CE542068D2FF004EE837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0156CE592068D2FF004EE837 /* PBXTargetDependency */,
+			);
+			name = TestFrameWorkTwoTests;
+			productName = TestFrameWorkTwoTests;
+			productReference = 0156CE562068D2FF004EE837 /* TestFrameWorkTwoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0156CE442068D2FE004EE837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = xxx;
+				TargetAttributes = {
+					0156CE4C2068D2FF004EE837 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0156CE552068D2FF004EE837 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0156CE472068D2FE004EE837 /* Build configuration list for PBXProject "TestFrameWorkTwo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0156CE432068D2FE004EE837;
+			productRefGroup = 0156CE4E2068D2FF004EE837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0156CE4C2068D2FF004EE837 /* TestFrameWorkTwo */,
+				0156CE552068D2FF004EE837 /* TestFrameWorkTwoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0156CE4B2068D2FF004EE837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0156CE542068D2FF004EE837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0156CE482068D2FF004EE837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0156CE522068D2FF004EE837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0156CE5C2068D2FF004EE837 /* TestFrameWorkTwoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0156CE592068D2FF004EE837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0156CE4C2068D2FF004EE837 /* TestFrameWorkTwo */;
+			targetProxy = 0156CE582068D2FF004EE837 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0156CE5F2068D2FF004EE837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0156CE602068D2FF004EE837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0156CE622068D2FF004EE837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TestFrameWorkTwo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.TestFrameWorkTwo;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0156CE632068D2FF004EE837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TestFrameWorkTwo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.TestFrameWorkTwo;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0156CE652068D2FF004EE837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestFrameWorkTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.TestFrameWorkTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0156CE662068D2FF004EE837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestFrameWorkTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.TestFrameWorkTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0156CE472068D2FE004EE837 /* Build configuration list for PBXProject "TestFrameWorkTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0156CE5F2068D2FF004EE837 /* Debug */,
+				0156CE602068D2FF004EE837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0156CE612068D2FF004EE837 /* Build configuration list for PBXNativeTarget "TestFrameWorkTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0156CE622068D2FF004EE837 /* Debug */,
+				0156CE632068D2FF004EE837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0156CE642068D2FF004EE837 /* Build configuration list for PBXNativeTarget "TestFrameWorkTwoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0156CE652068D2FF004EE837 /* Debug */,
+				0156CE662068D2FF004EE837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0156CE442068D2FE004EE837 /* Project object */;
+}
